@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+}
+
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f6fa;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #2f3542;
+}
+
+.header p {
+  color: #57606f;
+  font-size: 1rem;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.report-list {
+  width: 50%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.report-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.sort-options {
+  margin-bottom: 20px;
+}
+
+.sort-options button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  margin-right: 10px;
+}
+
+.sort-options button:hover {
+  background-color: #0056b3;
+}
+
+.report-detail {
+  width: 50%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.report-detail h2 {
+  color: #2f3542;
+}
+
+.report-detail p {
+  color: #57606f;
+  font-size: 1.1rem;
+}
+
+.select-report {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.loading,
+.no-reports,
+.select-report {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}
+
+.list-top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh-btn:hover {
+  background-color: #1eaa58;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actions button:hover {
+  background-color: #c0392b;
+}
